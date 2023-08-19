@@ -1,0 +1,140 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav {
+    display: flex;
+    background-color: black;
+    width: 100%;
+    height: 75px;
+    position: sticky;
+
+    position: fixed;
+    background-color: #282A35;
+    color: #f1f1f1;
+    padding: 0;
+    letter-spacing: 1px;
+    font-family: 'Source Sans Pro Topnav', sans-serif;
+    font-size: 0;
+margin-top: -56px;
+    z-index: 2;
+    width: 100%;
+    white-space: nowrap;
+    overflow: auto;
+    scrollbar-width: 
+}
+
+.item-1 {
+    font-size: 15px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 20px;
+
+}
+
+.item-2 {
+    font-size: 15px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    text-align: end;
+    margin-left: 750px;
+    margin-top: 30px;
+}
+
+.navitem {
+    padding: 25px;
+}
+
+.navitem:hover {
+    color: rgb(32, 32, 141);
+    cursor: pointer;
+}
+
+.item-1:hover {
+    color: rgb(32, 32, 141);
+    cursor: pointer;
+}
+
+.table1 {
+    margin: auto;
+    margin-top: 50px;
+    justify-content: center;
+    justify-items: center;
+    background-color: rgb(230, 230, 217);
+    height: 750px;
+    width: 850px;
+}
+.table2 {
+    margin: auto;
+    margin-top: 50px;
+    justify-content: center;
+    justify-items: center;
+    background-color: rgb(230, 230, 217);
+    height: 426px;
+    width: 850px;
+}
+
+.tab {
+    border-color: red;
+    border: 1px;
+    margin-left: 45px;
+    margin-top: 45px;
+}
+
+h3 {
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.remove {
+    border: none;
+}
+.form1{
+    padding: 20px;
+border: 1px solid black;
+text-align: center;
+justify-content: left;
+
+}
+
+#fname,#lname,#email,#dob,#password,#cpassword{
+    width: 450px;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 8px;
+}
+#age{
+    border: 1px solid gray;
+    border-radius: 8px;
+    width: 450px;
+    height: 30px; 
+}
+.btn{
+    color: white;
+border: none;
+background-color: black;
+padding: 10px;
+border-radius: 8px;
+
+}
+.btn:hover{
+    color: black;
+    background-color: gray;
+}
+label{
+    text-align: left;
+    color: rgb(2, 2, 8);
+    
+}
