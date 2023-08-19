@@ -3,6 +3,15 @@
     padding: 0px;
 }
 
+a {
+    text-decoration: none;
+    color: #f1f1f1;
+}
+
+a:hover {
+    color: gray;
+}
+
 .nav {
     display: flex;
     background-color: black;
@@ -13,16 +22,15 @@
     position: fixed;
     background-color: #282A35;
     color: #f1f1f1;
-    padding: 0;
+
     letter-spacing: 1px;
     font-family: 'Source Sans Pro Topnav', sans-serif;
     font-size: 0;
-margin-top: -56px;
+    margin-top: -56px;
     z-index: 2;
     width: 100%;
     white-space: nowrap;
-    overflow: auto;
-    scrollbar-width: 
+
 }
 
 .item-1 {
@@ -67,7 +75,9 @@ margin-top: -56px;
     background-color: rgb(230, 230, 217);
     height: 750px;
     width: 850px;
+    padding-top: 30px;
 }
+
 .table2 {
     margin: auto;
     margin-top: 50px;
@@ -82,12 +92,13 @@ margin-top: -56px;
     border-color: red;
     border: 1px;
     margin-left: 45px;
-    margin-top: 45px;
+    margin-top: 20px;
 }
 
-h3 {
-    margin-left: 100px;
-    margin-top: 50px;
+h2 {
+    margin-top: 25px;
+    padding-top: 20px;
+    padding-left: 30px;
 }
 
 table,
@@ -101,40 +112,50 @@ td {
 .remove {
     border: none;
 }
-.form1{
+
+.form1 {
     padding: 20px;
-border: 1px solid black;
-text-align: center;
-justify-content: left;
+    border: 1px solid black;
+    text-align: center;
+    justify-content: left;
 
 }
 
-#fname,#lname,#email,#dob,#password,#cpassword{
+#fname,
+#lname,
+#email,
+#dob,
+#password,
+#cpassword {
     width: 450px;
     height: 30px;
     border: 1px solid gray;
     border-radius: 8px;
 }
-#age{
+
+#age {
     border: 1px solid gray;
     border-radius: 8px;
     width: 450px;
-    height: 30px; 
+    height: 30px;
 }
-.btn{
+
+.btn {
     color: white;
-border: none;
-background-color: black;
-padding: 10px;
-border-radius: 8px;
+    border: none;
+    background-color: black;
+    padding: 10px;
+    border-radius: 8px;
 
 }
-.btn:hover{
+
+.btn:hover {
     color: black;
     background-color: gray;
 }
-label{
+
+label {
     text-align: left;
     color: rgb(2, 2, 8);
-    
+
 }
